@@ -51,17 +51,17 @@ function setup() {
   ball = new Ball(500,200,40,40);
 
   rope = new Rope(ball.body,{x:500,y:100});
-  var render = Render.create({
-    element: document.body,
-    engine: myEngine,
-    options: {
-      width: 1000,
-      height: 700,
-      wireframes: false
-    }
-  });
+//   var render = Render.create({
+//     element: document.body,
+//     engine: myEngine,
+//     options: {
+//       width: 1000,
+//       height: 700,
+//       wireframes: false
+//     }
+//   });
 
-Render.run(render);
+// Render.run(render);
 
 }
 
