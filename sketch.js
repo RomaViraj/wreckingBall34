@@ -106,5 +106,5 @@ function mouseDragged(){
 
 function mouseReleased(){
   
-  Matter.body.applyForce(ball.body,ball.body.position,{x:80,y:-80});
+  Matter.Body.applyForce(ball.body,ball.body.position,{x:80,y:-80});
 }
